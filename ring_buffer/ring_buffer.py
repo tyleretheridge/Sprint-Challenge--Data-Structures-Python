@@ -17,7 +17,7 @@ class RingBuffer:
             # Pop at index
             self.storage.pop(self.index)
         # Insert data at index
-        self.storage.isnert(self.index, item)
+        self.storage.insert(self.index, item)
         # Increment index
         self.index += 1
 
